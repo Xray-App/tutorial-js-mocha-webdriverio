@@ -19,7 +19,7 @@ describe('My Login application', () => {
         await LoginPage.login('tom', 'SuperPassword!');
         await expect(SecurePage.flashAlert).toBeExisting();
         await expect(SecurePage.flashAlert).toHaveTextContaining(
-            'Your username is invalid.');
+            'Your username is invalid!');
     });
 });
 
