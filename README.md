@@ -13,10 +13,6 @@ In order to run this tutorial you need to have Nodejs and install WebDriverIO te
 ```
 npm install @wdio/cli
 ```
-And configure your project with the following command.
-```
-npx wdio config
-```
 Install the Junit Framework.
 ```
 npm install @wdio/junit-reporter --save-dev
