@@ -38,6 +38,6 @@ jobs:
          xrayBaseUrl: ${{ secrets.JIRA_BASEURL }}
          testFormat: "junit"
          testPaths: "**/results.xml"
-         testPlanKey: "${{ secrets.TESTPLAN_KEY }}"
-         projectKey: "${{ secrets.PROJECT_KEY }}"
+         testPlanKey: "${{ secrets.JIRA_TEST_PLAN_KEY }}"
+         projectKey: "${{ secrets.JIRA_PROJECT_KEY }}"
          testEnvironments: "NODE_${{ matrix.node-version }}"
